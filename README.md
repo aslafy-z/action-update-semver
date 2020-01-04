@@ -14,6 +14,10 @@ It works well for GitHub Action. ref: https://help.github.com/en/articles/about-
 
 **Required**. Must be in form of `github_token: ${{ secrets.github_token }}`'.
 
+### `github_ref`
+
+**Optional**. Overwrites `$GITHUB_REF`. Must be in form of `github_ref: refs/tags/vX.X.X`'.
+
 ### `message`
 
 **Optional**. Tag message. Default: `Release $TAG`
